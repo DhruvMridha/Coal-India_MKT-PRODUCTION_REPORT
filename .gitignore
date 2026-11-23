@@ -1,0 +1,39 @@
+# Environment secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js
+.next/
+**/.next/
+out/
+build/
+
+# Vercel
+.vercel/
+**/.vercel/
+
+# Supabase local state
+**/supabase/.temp/
+
+# Archives
+*.zip
+
+# Build and cache
+*.tsbuildinfo
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
